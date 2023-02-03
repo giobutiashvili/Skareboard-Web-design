@@ -1,0 +1,107 @@
+/* reset */
+body{
+    margin: 0;
+    padding: 0;
+}
+*{text-decoration: none;
+}
+a{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56.5641px;
+    line-height: 120%;
+    color: var(--black);
+}
+h2{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.141px;
+    line-height: 160%;
+}
+
+
+/* top-section style */
+.top-section{
+    background-color: var(--green) ;
+}
+
+.top-section header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 4rem;
+}
+.header-img img{
+    width: 80px;
+}
+.header-nav nav a{
+    font-size: 18px;   
+    padding-inline: 20px; 
+    color: var(--black);
+}
+.header-auth button{ 
+    width: 80px;
+    height: 40px;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+.header-auth :first-child{
+    background: var(--green);
+    margin-right: 10px;
+
+}
+button{
+    color: var(--black);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:hover{
+    background: var(--black) !important;
+    color: var(--white) ;
+}
+/* section1 */
+.main-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.green-section {
+    display: flex;
+    justify-content: space-between;
+}
+.div-img{
+    position: relative;
+    margin-bottom: 30px;
+}
+.div-img :last-child{
+    position: absolute;
+    left: -70px;
+    top: 36%; 
+}
+.green-section div button{
+    width: 140px;
+    height: 40px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    margin: 0 15px;
+}
+.green-section:first-child div button:last-child{
+    background-color: var(--green);
+    border: 2px solid rgba(0, 0, 0, 0.16);
+}
+/* middle-section */
+.middle-section{
+    background-color: var(--black);
+} 
+
+.middle-section-img{
+    width: 80%;
+    padding: 7.5rem;
+}
