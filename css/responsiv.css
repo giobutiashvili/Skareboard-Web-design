@@ -1,0 +1,18 @@
+@media screen and (max-width:1200px) {
+    .main-section{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .article-div{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .div-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }    
+    .box{
+        width: 60%;
+    }
+}

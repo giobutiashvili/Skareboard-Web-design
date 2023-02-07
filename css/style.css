@@ -44,13 +44,13 @@ p{
 .top-section{
     background-color: var(--green) ;
 }
-
+.middle-section{
+    background-color: var(--black);
+}
 .top-section header{
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 3rem 0;
     gap: 4rem;
@@ -141,6 +141,7 @@ button:hover{
     font-size: 15.7123px;
     line-height: 140%;
     color: var(--grey);
+    margin: 40px;
 }
 .div-text-color{
     color: var(--green);
@@ -163,13 +164,14 @@ button:hover{
     display: flex;
     flex-direction: column;
     width: 90%;
-    padding: 5% 0;
+    padding-bottom: 5%;
+    border: 1px solid #262626;
 }
 .box-div{
     display: flex;
-    justify-content: space-between;
-    padding: inherit;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
 }
 .box-div div>span{
     color: var(--grey);
@@ -180,7 +182,6 @@ button:hover{
     font-weight: 600;
     font-size: 15.7123px;
     line-height: 19px;
-    text-align: center;
 }
 .box-div button{
     color: var(--black);
@@ -195,12 +196,13 @@ button:hover{
 .section-div>button{
     background-color: var(--black);
     color: var(--white);
-    border: 1px solid var(--grey);
+    border: 0.7px solid #262626;
     width: 200px;
 }
 .section-div{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 .section-div>button:hover{
     background-color: var(--green) !important;
@@ -222,7 +224,7 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
-
+    justify-content: center;
 }
 .article-div article{
     width: 370px;
@@ -274,8 +276,6 @@ button:hover{
     text-align: center;
     padding: 85px 172px;
     position: relative;
-    width: 879px;
-    height: 382px;
     background-color: var(--green);
 }
 .section3-div h3{
@@ -433,14 +433,6 @@ button:hover{
 }
 .footer div ul li{
     margin: 12px 0;
-}
-section div>span{
-    color: var(--white);
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-
-
 }
 
 
