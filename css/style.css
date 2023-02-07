@@ -3,7 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
-*{text-decoration: none;
+*{
+    text-decoration: none;
+    list-style: none;
 }
 a{
     box-sizing: border-box;
@@ -23,8 +25,21 @@ h2{
     font-size: 14.141px;
     line-height: 160%;
 }
-
-
+h4 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7123px;
+    line-height: 19px;
+    color: var(--white);
+}
+p{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.7123px;
+        line-height: 19px;
+}
 /* top-section style */
 .top-section{
     background-color: var(--green) ;
@@ -90,7 +105,7 @@ button:hover{
     height: 40px;
     font-family: 'Urbanist';
     font-style: normal;
-    margin: 0 15px;
+    margin: 50px 15px 20px; 
 }
 .green-section:first-child div button:last-child{
     background-color: var(--green);
@@ -99,9 +114,333 @@ button:hover{
 /* middle-section */
 .middle-section{
     background-color: var(--black);
-} 
-
-.middle-section-img{
-    width: 80%;
-    padding: 7.5rem;
 }
+.middle-section> section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.div-video{
+    display: flex;
+    justify-content: center;   
+}
+.video{
+    width: 720px;
+    height: 450px;
+    margin: 50px;
+}
+.div-text{
+    color: var(--white);
+    text-align: center;
+}
+.div-text h2{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7123px;
+    line-height: 140%;
+    color: var(--grey);
+}
+.div-text-color{
+    color: var(--green);
+}
+.div-text > span{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.9943px;
+    line-height: 140%;
+    color: var(--white);
+    margin-inline: 123px;
+}
+.div-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5% 0;
+}
+.box-div{
+    display: flex;
+    justify-content: space-between;
+    padding: inherit;
+    align-items: center;
+}
+.box-div div>span{
+    color: var(--grey);
+}
+.div-box div >p{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.7123px;
+    line-height: 19px;
+    text-align: center;
+}
+.box-div button{
+    color: var(--black);
+    background-color: var(--green);
+    width: 75px;
+    height: 40px;
+}
+.box-div button:hover{
+    background: var(--black) !important;
+    color: var(--white) ;
+}
+.section-div>button{
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--grey);
+    width: 200px;
+}
+.section-div{
+    display: flex;
+    justify-content: center;
+}
+.section-div>button:hover{
+    background-color: var(--green) !important;
+    color: var(--black);
+}
+.bottom-section div >h1{
+    color: var(--white);
+}
+.bottom-section div >h2{
+    color: var(--grey);
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7123px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.article-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+
+}
+.article-div article{
+    width: 370px;
+    height: 230px;
+    color: var(--black);
+    background-color: var(--green);
+    position: relative;
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+.article-div article p{
+    padding-bottom: inherit;
+    border-bottom: 2px solid rgba(19, 18, 18, 0.4);   
+     
+}
+.article-div-position{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.last-section{
+    margin-top: 200px;
+}
+.last-section div >p{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.4245px;
+    line-height: 140%;
+    color: var(--white);
+}
+.last-section div >span{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8547px;
+    line-height: 140%;
+}
+.last-section1{
+    margin-left: 100px;
+}
+.last-section .box-div{
+    margin-bottom: 100px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 85px 172px;
+    position: relative;
+    width: 879px;
+    height: 382px;
+    background-color: var(--green);
+}
+.section3-div h3{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37.7094px;
+    line-height: 46px;    
+}
+.section3-div p {
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.7123px;
+        line-height: 140%;
+        margin-bottom: 40px;
+    }
+.section3-div :nth-child(3)
+,.section3-div :last-child{
+    width: 190px;
+    height: 40.14px;
+    background-color: var(--black);
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5698px;
+    line-height: 15px;
+    padding: 12px 25px;
+    color: var(--white);
+    margin: 0 10px;
+}
+.section3-div :nth-child(3):hover{
+    background-color: var(--green) !important;
+    color: var(--black);
+    border: 1px solid var(--grey) !important;
+}
+.section3-div :last-child{
+    background-color: var(--white);
+    color: var(--black);
+}
+.section3-div :last-child:hover{
+    background-color: var(--black) !important;
+    color: var(--white);
+    border: 1px solid var(--grey) !important;
+}
+.section3-img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+}
+.section3-img1 :last-child{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+.section3-img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 130px;
+    height: 380px;
+}
+.section3-img2 :last-child{
+    position: absolute;
+    left: -20%;
+    top: 40%;
+}
+.section4-div1{
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 100px;
+}
+.section4 p{
+    color: var(--grey); 
+}
+.section4 h1{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.9943px;
+    line-height: 54px;
+    color: var(--white);
+}
+.section4-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15.7123px 18.8547px;
+    gap: 6.28px;
+    border: 0.785613px solid var(--grey);
+    margin: 20px 0;
+    align-items: center;
+}
+.section4-article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.section4-article div h1{
+    color: var(--white);
+    margin: 20px 0;
+}
+.section4-article div p{
+    color: var(--grey);
+}
+.input {
+    border-bottom: 1.57123px solid var(--grey);
+}
+.section4-article div input{
+    padding: 9.42736px;
+    margin-right: 10px;
+    width: 384.95px;
+    background:var(--black);
+    cursor: pointer;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.7123px;
+    line-height: 140%;
+    color: var(--white);
+    border: 1 solid var(--black);
+}
+.section4-article div button{
+    padding: 9.42736px 12.5698px;
+    background-color: var(--green);
+}
+ 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: var(--grey);
+}
+.footer div button{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.9986px;
+    line-height: 13px;
+    letter-spacing: 0.09em;
+    padding: 10.5698px 17.1396px;
+    width: 179px;
+    height: 40.14px;
+    background-color: var(--green);
+    border: 0;
+    margin: 20px 0;
+}
+.footer div h1 {
+    color: var(--white);
+    margin: 0;
+}
+.footer div ul{
+    padding-left: 0;
+}
+.footer div ul li{
+    margin: 12px 0;
+}
+section div>span{
+    color: var(--white);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
