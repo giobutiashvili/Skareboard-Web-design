@@ -49,7 +49,6 @@ p{
 }
 .top-section header{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 3rem 0;
@@ -95,10 +94,11 @@ button:hover{
     position: relative;
     margin-bottom: 30px;
 }
-.div-img :last-child{
+.green-div{
     position: absolute;
-    left: -70px;
-    top: 36%; 
+    left: -67px;
+    top: 170px;
+
 }
 .green-section div button{
     width: 140px;
@@ -107,7 +107,7 @@ button:hover{
     font-style: normal;
     margin: 50px 15px 20px; 
 }
-.green-section:first-child div button:last-child{
+.green-section div button:last-child{
     background-color: var(--green);
     border: 2px solid rgba(0, 0, 0, 0.16);
 }
@@ -153,7 +153,6 @@ button:hover{
     font-size: 43.9943px;
     line-height: 140%;
     color: var(--white);
-    margin-inline: 123px;
 }
 .div-box{
     display: grid;
@@ -303,9 +302,8 @@ button:hover{
     font-weight: 600;
     font-size: 12.5698px;
     line-height: 15px;
-    padding: 12px 25px;
     color: var(--white);
-    margin: 0 10px;
+    margin:10px;
 }
 .section3-div :nth-child(3):hover{
     background-color: var(--green) !important;
@@ -365,7 +363,6 @@ button:hover{
     display: flex;
     justify-content: space-between;
     padding: 15.7123px 18.8547px;
-    gap: 6.28px;
     border: 0.785613px solid var(--grey);
     margin: 20px 0;
     align-items: center;
