@@ -362,10 +362,20 @@ button:hover{
 .section4-div{
     display: flex;
     justify-content: space-between;
-    padding: 15.7123px 18.8547px;
-    border: 0.785613px solid var(--grey);
-    margin: 20px 0;
     align-items: center;
+    padding: 15px 18px;
+    border: 0.785613px solid var(--grey);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.accordion-item{
+    padding: 15px 18px;
+    border: 0.785613px solid var(--grey);
+    margin-bottom: 20px;
+    display: none;
+}
+.accordion-item.active{
+    display: block;
 }
 .section4-article{
     display: flex;
