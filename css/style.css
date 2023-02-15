@@ -76,6 +76,7 @@ button{
     color: var(--black);
     cursor: pointer;
     text-transform: uppercase;
+    
 }
 button:hover{
     background: var(--black) !important;
@@ -292,8 +293,8 @@ button:hover{
         line-height: 140%;
         margin-bottom: 40px;
     }
-.section3-div :nth-child(3)
-,.section3-div :last-child{
+.section3-div :nth-child(3),
+.section3-div :last-child{
     width: 190px;
     height: 40.14px;
     background-color: var(--black);
@@ -382,6 +383,7 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 80px;
+    
 }
 .section4-article div h1{
     color: var(--white);
@@ -398,7 +400,7 @@ button:hover{
     margin-right: 10px;
     width: 384.95px;
     background:var(--black);
-    cursor: pointer;
+    cursor: text;
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 600;
