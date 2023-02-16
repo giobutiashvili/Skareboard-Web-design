@@ -15,15 +15,15 @@
     <section class="top-section">
         <section class="main-section">
             <header>
-                <div class="header-img">
+                <div id="header-img" class="header-img">
                     <a href="#"><img src="./assets/icons/Frim.png"  alt="frim-img"></a>
                 </div>
                 <div class="header-nav">
                     <nav>
-                        <a href="#" target="_blank">Market</a>
-                        <a href="#">Skateboards</a>
-                        <a href="#">Builder</a>
-                        <a href="#">Cart</a>
+                        <a href="#article-div" target="_self">Market</a>
+                        <a href="#div-box" target="_self">Skateboards</a>
+                        <a href="#section4">Comunity</a>
+                        <a href="#box-div" target="_self">Cart</a>
                     </nav>
                 </div>     
                 <div class="header-auth">
@@ -39,8 +39,8 @@
                 <div>
                     <h1>Design your own wheels.</h1>
                     <h2>Create your own Custom Skateboards and Grip. Design from scratch or Personalize an existing graphic.</h2>
-                    <button>go to builder</button>
-                    <button onclick="window.location.href='https://www.amazon.com/'">browse Market</button>
+                    <button onclick="gotobuilder()">go to builder</button>
+                    <button onclick="openNewTab()">browse Market</button>
                 </div>
                 <div class="div-img">
                     <img src="./assets/img/boy.png" alt="boy-img">
@@ -55,7 +55,7 @@
             <embed class="video" src="https://www.youtube.com/embed/NcaZPwzhmO8" alt="img">
             </div>
             <div class="div-text">
-                <span>For the <span class="div-text-color">Dopest Skater’s</span> around the world.</span>
+                <span id="div-box" >For the <span class="div-text-color">Dopest Skater’s</span> around the world.</span>
                 <h2>At Frim we build the firmest, sleekest, coolest boards that you can flex around with</h2>
             </div>
             <div class="div-box">
@@ -101,12 +101,12 @@
             </article> 
             </div>
             <div class="section-div" >
-            <button>
+            <button onclick="openNewTab()">
                <h2>BROWSE THE MARKET</h2>
             </button>
             </div>
             <section class="bottom-section">
-            <div>
+            <div id="article-div">
                 <h1>
                     Build your <span class="div-text-color">own</span>  beast.
                 </h1>
@@ -138,7 +138,7 @@
             </div>
             </section>
             <section class="last-section">
-            <div class="box-div ">
+            <div id="box-div" class="box-div ">
                 <div>
                     <img src="./assets/img/girl1.png" alt="girlimg">
                 </div>
@@ -152,8 +152,8 @@
             <div class="section3-div">
                     <h3>Customize your wheels till satisfaction.</h3>
                     <p>we help you design your own skateboard with the help of our easy design</p>
-                        <button>head to market</button>
-                        <button>go to builder</button>
+                        <button onclick="goTohead()" >head to market</button>
+                        <button onclick="openEbay()">go to builder</button>
                 </div>
                 <div class="section3-img1">
                     <img src="./assets/img/skateboards.png" alt="SkateBoard">
@@ -164,7 +164,7 @@
                     <img src="./assets/img/Vector.png" alt="asda">
                 </div>
             </div>
-            <div class="section4">
+            <div id="section4" class="section4">
                 <div>
                     <div class="section4-div1">
                         <h1>Know more about <span class="div-text-color">FRIM</span></h1>

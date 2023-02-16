@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     text-decoration: none;
     list-style: none;
@@ -167,6 +170,10 @@ button:hover{
     padding-bottom: 5%;
     border: 1px solid #262626;
 }
+.box:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 20px 30px rgba(184, 65, 65, 0.2);
+}
 .box-div{
     display: flex;
     justify-content: space-around;
@@ -192,6 +199,7 @@ button:hover{
 .box-div button:hover{
     background: var(--black) !important;
     color: var(--white) ;
+    border-color:rgba(184, 65, 65, 0.2);
 }
 .section-div>button{
     background-color: var(--black);
@@ -223,7 +231,7 @@ button:hover{
 .article-div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 48px;
     justify-content: center;
 }
 .article-div article{
@@ -234,7 +242,10 @@ button:hover{
     position: relative;
     padding: 25px;
     box-sizing: border-box;
-
+}
+.article-div article:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 25px 35px rgba(28, 173, 59, 0.2);
 }
 .article-div article p{
     padding-bottom: inherit;
@@ -346,8 +357,11 @@ button:hover{
 .section4-div1{
     margin: 0 auto;
     text-align: center;
-    width: 600px;
+
     margin-bottom: 100px;
+}
+.section4{
+    max-height: 100%;
 }
 .section4 p{
     color: var(--grey); 
@@ -360,6 +374,7 @@ button:hover{
     line-height: 54px;
     color: var(--white);
 }
+
 .section4-div{
     display: flex;
     justify-content: space-between;
@@ -369,6 +384,7 @@ button:hover{
     margin-top: 20px;
     cursor: pointer;
 }
+
 .accordion-item{
     padding: 15px 18px;
     border: 0.785613px solid var(--grey);
